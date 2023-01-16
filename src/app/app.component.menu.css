@@ -1,0 +1,42 @@
+p {
+  font-family: Lato;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+button {
+  height: 3.5em;
+  width: 150px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50px;
+  border-color: black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+#menu {
+  box-sizing: border-box;
+  float: left;
+  margin: 0;
+  width: 25%;
+  height: 100vh;
+  background-color: #338bff;
+  min-height: 100vh;
+  border: 1px solid black;
+}
+#iframe {
+  box-sizing: border-box;
+  min-height: 100vh;
+  float: left;
+  width: 75%;
+  height: 100vh;
+  background-color: white;
+  border: 1px solid black;
+}
+#button_deconnexion {
+  border-color: black;
+  border-radius: 0px;
+}
